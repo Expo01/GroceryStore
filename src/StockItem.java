@@ -71,7 +71,8 @@ public class StockItem implements Comparable<StockItem> {
     // created based on value of name field + a prime number we've arbitrarily selected
 
     @Override
-    public int compareTo(StockItem o) {
+    public int compareTo(StockItem o) { //need to define what constitutes greatere or lessoere using the
+        //compareTo mtehod from comparavle inteerrface
         System.out.println("Entering StockItem.compareTo");
         if(this == o) {
             return 0;
